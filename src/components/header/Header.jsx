@@ -3,7 +3,7 @@ import {Link, useLocation} from 'react-router-dom'
 
 import './header.scss'
 
-import logo from '../../assets/netfilx-logo.png'
+import logo from '../../assets/netflix-logo.png'
 
 const headerNav = [
   {
@@ -12,7 +12,7 @@ const headerNav = [
   },
   {
     display: 'Movies',
-    path: '/movies'
+    path: '/movie'
   },
   {
     display: 'TV Series',
